@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Galaxy Movies</title>
+  </head>
+  <body>
+    <div class="container">
+      
+      <header class="encabezado">
+        <div class="toggle-btn">
+          <span>&#9776;</span>
+        </div>
+        <h1 class="galaxy">GalaxyMovies.com</h1>
+        <span class="usuario"></span>
+      </header>
+
+      <nav class="navbar">
+        <ul>
+          <li>Crime</li>
+          <li>Suspense</li>
+          <li>Romantic</li>
+          <li>Terror</li>
+          <li>Documental</li>
+          <li>Historical</li>
+        </ul>
+      </nav>
+
+      <h2 class="title recommended">Recommended for you</h2>
+
+      <section id="slider">
+        <div class="pictures">
+        </div>
+      </section>
+
+      <div class="sidebar">
+        <div class="options">
+          <div class="content">
+            <div class="username">
+              <a href="#" id="profile"></a>
+            </div>
+            <div class="date"></div>
+            <input type="search" name="search" id="search" autocomplete="off">
+            <div class="icons" id="home">
+              <a href="#" class="home">Home</a>
+              <img src="media/hogar.svg" alt="">
+            </div>
+            <div class="icons">
+              <a href="#">Genres</a>
+              <img src="media/movie-symbol-of-video-camera_icon-icons.com_72981.svg" alt="">
+            </div>
+            <div class="icons">
+              <a href="#">About</a>
+              <img src="media/user-1.svg" alt="">
+            </div>
+            <div class="icons">
+              <a href="#">Settings</a>
+              <img src="media/ajustes.svg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal">
+        <div class="log-in">
+          <div class="log-in-top">
+            <img src="media/asteroide.svg" alt="" class="cohete-svg">
+            <img src="media/remove-symbol.svg" alt="remove" class="close">
+          </div>
+        </div>
+      </div>
+
+      <h2 class="title popular normal">
+        Popular on GalaxyMovies
+      </h2>
+
+      <div class="dark-mode">
+          <input type="checkbox" id="checkbox" />
+      </div>
+
+      <div class="retratos">
+      </div>
+
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
