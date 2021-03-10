@@ -118,10 +118,6 @@ body {
   list-style: none;
   margin: 0.3em;
   padding: 0;
-  animation-name: navbarLeft;
-  animation-timing-function: linear;
-  animation-duration: 16s;
-  position: relative;
 }
 
 .navbar ul li {
@@ -502,27 +498,9 @@ body {
 
 /************************** Animations ******************************/
 
-@keyframes navbarLeft {
-  from {
-    left: -100%;
-  }
-  to {
-    left: 100%;
-  }
-}
-
-@keyframes navbarRight {
-  from {
-    right: 100%;
-  }
-  to {
-    right: -100%;
-  }
-}
-
 @keyframes pictures {
   from {
-    left: 0;
+    left: -100%;
   }
   to {
     left: 100%;
